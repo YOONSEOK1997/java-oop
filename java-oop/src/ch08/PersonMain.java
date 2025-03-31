@@ -13,9 +13,9 @@ public class PersonMain {
 		// 1-9
 		HashMap<String, Object> paramMap 
 			= new HashMap<String, Object>(); 
-		paramMap.put("name", "샹크스");
+		paramMap.put("name", "윤석열");
 		paramMap.put("age", 40);
-		String[] myHobby = {"술", "견문색", "검도"};
+		String[] myHobby = {"술", "계엄"};
 		paramMap.put("hobby", myHobby);
 		Data myData = new Data(7, 11);
 		paramMap.put("data", myData);
