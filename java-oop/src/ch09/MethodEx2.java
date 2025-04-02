@@ -57,7 +57,7 @@ public int[] m5a(int num) {
     int length = 0;
 
     while (num > 0) {
-    num /= 10;
+    num /= 10;                 
     length++;
 }
 
@@ -67,7 +67,8 @@ public int[] m5a(int num) {
         result[j] = tmp % 10;
         tmp = tmp / 10;
     }
-    return result;
+    return result; 
+    
 }
 
 	
